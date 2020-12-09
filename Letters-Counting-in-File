@@ -1,0 +1,26 @@
+from os import strerror
+f=input("Enter file name: ")
+try:
+    file=open(f,'rt')
+    redfile=file.readline()   #Read the provided file
+    dict={}
+    for xharacter in range(65,91):
+        dict[chr(xharacter)]=0
+    while redfile !='':
+        for ch in redfile:
+            if (ch !=' ' and ch !="\n" and ch!="-"):
+                ch=ch.upper()
+                dict[ch]=0+dict[ch]
+                #print(dict)
+                for let in range(65,122):
+                    if ord(ch)==let:
+                        dict[ch]=1+dict[ch]
+        redfile=file.readline()
+except IOError as e:
+    print("I/O error occured",strerr(e.errno))
+    exit(errorno)
+    
+print("Number of apperarance of every letter in the file: ")    
+for key,value in dict.items():
+    print(key,"->",value)
+file.close()
