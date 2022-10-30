@@ -2,10 +2,9 @@
 The repository contains file related operations.
 This contain code for,
 
-A ReadWrite byte array
-
-letters counting in a file
-A File writing 
-File Reading using Exception handling
-Letter appearance counting based on values
-Copy/Paste content from multiple file
+* A Read/Write byte array
+* Letters counting in a file
+* A File writing 
+* File reading using exception handling
+* Letter appearance based on values
+* Copy/Paste content from multiple file
