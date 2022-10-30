@@ -1,6 +1,6 @@
 # File-Operation
-The repo have some simple file related operations.
-this contain code for,
+The repository contains file related operations.
+This contain code for,
 
 A ReadWrite byte array
 letters counting in a file
