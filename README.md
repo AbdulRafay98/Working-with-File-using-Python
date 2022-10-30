@@ -2,7 +2,7 @@
 The repository contains file related operations.
 This contain code for,
 
-* A Read/Write byte array
+* Read/Write byte array
 * Letters counting in a file
 * A File writing 
 * File reading using exception handling
